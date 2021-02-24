@@ -16,9 +16,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-import com.sun.jmx.snmp.Timestamp;
-
-import crypto.AES256Cipher;
+import util.crypto.AES256Cipher;
 
 public class CryptoTest {
 

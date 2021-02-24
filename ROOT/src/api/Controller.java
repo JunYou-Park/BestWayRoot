@@ -9,7 +9,7 @@ import api.model.NoticeVo;
 import api.model.UserVo;
 import api.ticket.TicketDao;
 import api.user.UserDao;
-import crypto.AES256Cipher;
+import util.crypto.AES256Cipher;
 
 import java.io.IOException;
 import java.io.PrintWriter;

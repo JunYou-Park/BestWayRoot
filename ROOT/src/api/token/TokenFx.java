@@ -1,4 +1,4 @@
-package api.user;
+package api.token;
 
 
 import java.io.UnsupportedEncodingException;
@@ -22,10 +22,8 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
-import com.sun.jmx.snmp.Timestamp;
-
-import crypto.AES256Cipher;
-import db.DBConnector;
+import util.crypto.AES256Cipher;
+import util.db.DBConnector;
 
 public class TokenFx {
 	 

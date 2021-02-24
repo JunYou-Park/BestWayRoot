@@ -1,4 +1,4 @@
-package crypto;
+package util.crypto;
 
 import java.nio.charset.Charset;
 import java.security.InvalidAlgorithmParameterException;
